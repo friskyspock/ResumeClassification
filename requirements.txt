@@ -1,0 +1,11 @@
+streamlit
+pandas==2.0.3
+nltk
+python-docx
+pypdf2
+docx2txt
+pdfplumber
+matplotlib
+plotly
+scikit-learn
+wordcloud
