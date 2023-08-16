@@ -4,6 +4,8 @@ import docx2txt
 import pdfplumber
 import re
 import nltk
+nltk.download('wordnet')
+nltk.download('stopwords')
 from nltk.tokenize import RegexpTokenizer
 from nltk import word_tokenize
 from nltk.stem import WordNetLemmatizer
@@ -18,9 +20,6 @@ import pickle
 
 vectors = pickle.load(open('vector.pkl','rb'))
 model = pickle.load(open('model.pkl','rb'))
-
-nltk.download('wordnet')
-nltk.download('stopwords')
 
 resume = []
 
